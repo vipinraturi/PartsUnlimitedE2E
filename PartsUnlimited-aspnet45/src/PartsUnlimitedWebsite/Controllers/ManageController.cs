@@ -9,7 +9,7 @@ using PartsUnlimited.Models;
 
 namespace PartsUnlimited.Controllers
 {
-    [Authorize]
+    [Authorize] 
     public class ManageController : Controller
     {
         private SignInManager<ApplicationUser, string> SignInManager
